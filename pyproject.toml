@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "speech-to-text-benchmarks"
+version = "1.0.0"
+description = ""
+authors = ["Vlad Korol <vlad2003korol@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.1"
+transformers = "^4.47.0"
+numpy = "^2.2.0"
+jiwer = "^3.0.5"
+num2words = "^0.5.13"
+scipy = "^1.14.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
