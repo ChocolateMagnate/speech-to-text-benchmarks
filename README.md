@@ -48,9 +48,6 @@ Metrics:
 2. WER (Word Error Rate) compared against reference transcription
 
 # Benchmark Results
-Model VariantRTFWERProcessing Time (s)tiny0.011525.37%223.08base0.015623.14%301.96turbo0.020320.12%394.44medium0.049621.62%961.93
-Analysis
-
 All models achieved faster-than-real-time processing (RTF < 1.0)
 
 Larger models generally showed better accuracy (lower WER)
